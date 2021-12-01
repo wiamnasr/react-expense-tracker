@@ -2,7 +2,7 @@
 import { Wrapper } from "./ExpenseForm.styles";
 
 // hooks
-import { useState } from "react";
+import React, { useState } from "react";
 
 const ExpenseForm = () => {
   // const [enteredTitle, setEnteredTitle] = useState("");

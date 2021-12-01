@@ -1,3 +1,5 @@
+import React from "react";
+
 // Components
 import Expenses from "./Components/Expenses-Components/Expenses/Expenses";
 import NewExpense from "./Components/NewExpense/NewExpense";

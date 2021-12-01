@@ -1,3 +1,5 @@
+import React from "react";
+
 // Styles
 import { Wrapper } from "./Card.styles";
 
