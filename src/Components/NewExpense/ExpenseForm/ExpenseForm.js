@@ -43,7 +43,7 @@ const ExpenseForm = (props) => {
     // creating an expense data object to collect information for submission
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate),
     };
     props.onSaveExpenseData(expenseData);
